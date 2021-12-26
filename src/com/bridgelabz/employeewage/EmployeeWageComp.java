@@ -22,8 +22,8 @@ public class EmployeeWageComp {
 				case 2:working_hr = 4;
 				 break;	
 					
-				default:
-					working_hr = 0;
+				default:working_hr = 0;
+					
 		     }
 			     total_working_hr += working_hr;
 			     daily_wage_array[i] = working_hr * wage_per_hr;
