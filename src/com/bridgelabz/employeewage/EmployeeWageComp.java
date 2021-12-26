@@ -24,16 +24,16 @@ public class EmployeeWageComp {
 					
 				default:
 					working_hr = 0;
-		  }
+		     }
 			     total_working_hr += working_hr;
 			     daily_wage_array[i] = working_hr * wage_per_hr;
-		  }
-		       for (int j=0; j<days_in_month; j++) {
+		     }
+		          for (int j=0; j<days_in_month; j++) {
 			  int day = j+1;
 			  System.out.println("Day " + day + " wage is " + daily_wage_array[j]);
 			  monthly_total_wage = monthly_total_wage + daily_wage_array[j];
-		 }
-		      System.out.println("\nMonthly wage is " + monthly_total_wage);
-	    }
+		     }
+		          System.out.println("\nMonthly wage is " + monthly_total_wage);
+	         }
 
-       }
+              }
